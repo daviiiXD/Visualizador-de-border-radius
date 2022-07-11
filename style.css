@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Roboto+Mono:wght@600&family=Roboto:ital,wght@1,300&display=swap');
+body {
+    padding: 0;
+}
+h2 {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: 30pt;
+}
+p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.cobaia {
+    width: 60%;
+    height: 10em;
+    border: 10px solid #ccc;
+    background-color: goldenrod;
+    box-shadow: 0 0 5px 1px gray;
+}
+.inputs {
+    margin-top: 20%;
+}
+#style {
+    text-align: center;
+    padding: 10%;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background-color: #121212;
+}
+input[type=range] {
+    -webkit-appearance: none;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 70%;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid white;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
